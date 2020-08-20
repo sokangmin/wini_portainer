@@ -7,7 +7,7 @@
 ### 주요화면 
 - Home, Dashboard
   - 현재 등록되어 있는 Docker환경을 보여주는 화면으로 선택하면 선택한 Docker환경의 정보를 대시보드형태로 보여준다.
-  - Docker환경은 로컬 및 원격 모두 등록가능합니다.<br/>
+  - Docker환경은 로컬 및 원격 모두 등록가능합니다.(중앙집중관리)<br/>
   <img width="48%" height="50%" src="./image/1.jpg">&nbsp;</img><img width="48%" height="50%" src="./image/2.jpg"></img>
 - App Templates
   - App을 쉽게 배포할 수 있도록 사전에 준비된 템플릿 제공<br/>
