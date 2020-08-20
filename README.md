@@ -42,3 +42,8 @@ $ docker volume create portainer_data
 $ docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /var/run/docker.sock:/var/run/docker.sock -v portainer_data:/data portainer/portainer
 # 9000 포트는 관리화면에서 사용함. 8000 포트는 edge agent에서 사용하며 edge agent를 사용하지 않으면 노출 할 필요 없음 
 ```
+3> Portainer 로그인 및 Docker 등록
+- 웹브라우저를 통해 Portainer 관리화면에 접속한다. (http://서버ip:9000)<br/>
+  <img width="48%" height="50%" src="./image/8.jpg">
+- Local을 선택한 후 Connect버튼을 클릭하여 로컬 Docker을 등록한다.<br/>
+  <img width="48%" height="80%" src="./image/9.jpg">
