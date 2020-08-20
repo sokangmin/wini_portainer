@@ -12,3 +12,7 @@
 - App Templates
   - App을 쉽게 배포할 수 있도록 사전에 준비된 템플릿 제공<br/>
     <img width="48%" height="50%" src="./image/3.jpg">
+- 리소스(컨테이너, 이미지, 네트워크, 볼륨 등)
+  - 컨테이너, 이미지, 네트워크, 볼륨 등 도커 리소스에 대한 정보를 보여준다.<br/>
+  <img width="48%" height="50%" src="./image/4.jpg">&nbsp;</img><img width="48%" height="50%" src="./image/5.jpg"></img>
+  <img width="48%" height="50%" src="./image/6.jpg">&nbsp;</img><img width="48%" height="50%" src="./image/7.jpg"></img>
