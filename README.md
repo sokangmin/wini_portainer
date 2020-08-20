@@ -47,3 +47,6 @@ $ docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /
   <img width="48%" height="50%" src="./image/8.jpg">
 - Local을 선택한 후 Connect버튼을 클릭하여 로컬 Docker을 등록한다.<br/>
   <img width="48%" height="80%" src="./image/9.jpg">
+
+<!--### 원격 도커 등록방법
+### 사용법-->
