@@ -49,6 +49,7 @@ $ docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /
   <img width="48%" height="80%" src="./image/9.jpg">
 
 <!--### 원격 도커 등록방법
+윈도우 설치
 ### 사용법-->
 ### ※ 참고
 - https://www.portainer.io/installation/
