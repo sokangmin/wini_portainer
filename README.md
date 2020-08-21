@@ -48,7 +48,7 @@ $ docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /
 - Local을 선택한 후 Connect버튼을 클릭하여 로컬 Docker을 등록한다.<br/>
   <img width="48%" height="80%" src="./image/9.jpg">
 
-### 2. 설치방법(without Docker)
+### 3. 설치방법(without Docker)
 1> [Portainer releases](https://github.com/portainer/portainer/releases) 를 다운로드하고 압축 해제
 ```bash
 $ cd /opt
