@@ -16,7 +16,7 @@
   - 컨테이너, 이미지, 네트워크, 볼륨 등 도커 리소스에 대한 정보를 보여준다.<br/>
   <img width="48%" height="50%" src="./image/4.jpg">&nbsp;</img><img width="48%" height="50%" src="./image/5.jpg"></img>
   <img width="48%" height="50%" src="./image/6.jpg">&nbsp;</img><img width="48%" height="50%" src="./image/7.jpg"></img>
-### 2. 설치방법 
+### 2. 설치방법(with Docker)
 portainer CE의 기본설치방법에 대해 설명한다.
 - OS : CentOS 7
 
@@ -48,6 +48,23 @@ $ docker run -d -p 8000:8000 -p 9000:9000 --name=portainer --restart=always -v /
 - Local을 선택한 후 Connect버튼을 클릭하여 로컬 Docker을 등록한다.<br/>
   <img width="48%" height="80%" src="./image/9.jpg">
 
+### 2. 설치방법(without Docker)
+1> [Portainer releases](https://github.com/portainer/portainer/releases) 를 다운로드하고 압축 해제
+```bash
+$ cd /opt
+$ wget https://github.com/portainer/portainer/releases/download/1.24.1/portainer-1.24.1-linux-amd64.tar.gz
+$ tar xvpfz portainer-1.24.1-linux-amd64.tar.gz
+```
+2> /data 폴더를 생성하고 portainer 실행 
+```bash
+$ mkdir /data
+$ cd /opt/portainer
+$ ./portainer -p :9000
+```
+※ Potainer는 기본적으로 데이터를 /data 폴더에 저장한다. data 폴더 경로를 변경해서(ex>/opt/portainer-data) 실행할려면 아래와 같이 사용한다.
+```bash
+$ ./portainer --data /opt/portainer-data
+```
 <!--### 원격 도커 등록방법
 윈도우 설치
 ### 사용법-->
